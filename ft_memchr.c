@@ -10,9 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_LIBFT_H
-#define LIBFT_LIBFT_H
+#include "libft.h"
 
-#include <stdio.h>
+void	*ft_memchr(const void *s, int c, size_t n)
+{
+	const unsigned char *s1;
 
-#endif
+	s1 = s;
+	while (n--)
+	{
+		if (*s1 == (unsigned char)c)
+		{
+			return ((void *)s1);
+		}
+		s1++;
+	}
+	return (NULL);
+}

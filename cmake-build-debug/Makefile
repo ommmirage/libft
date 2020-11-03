@@ -143,6 +143,33 @@ Libft/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/build
 .PHONY : Libft/fast
 
+ft_memchr.o: ft_memchr.c.o
+
+.PHONY : ft_memchr.o
+
+# target to build an object file
+ft_memchr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.o
+.PHONY : ft_memchr.c.o
+
+ft_memchr.i: ft_memchr.c.i
+
+.PHONY : ft_memchr.i
+
+# target to preprocess a source file
+ft_memchr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.i
+.PHONY : ft_memchr.c.i
+
+ft_memchr.s: ft_memchr.c.s
+
+.PHONY : ft_memchr.s
+
+# target to generate assembly for a file
+ft_memchr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.s
+.PHONY : ft_memchr.c.s
+
 ft_memcpy.o: ft_memcpy.c.o
 
 .PHONY : ft_memcpy.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Libft"
+	@echo "... ft_memchr.o"
+	@echo "... ft_memchr.i"
+	@echo "... ft_memchr.s"
 	@echo "... ft_memcpy.o"
 	@echo "... ft_memcpy.i"
 	@echo "... ft_memcpy.s"
