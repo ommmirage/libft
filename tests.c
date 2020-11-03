@@ -25,6 +25,7 @@ int	main(int argc, char *argv[])
 //	// memccpy
 //	ft_memccpy(b1, r1, 'C', size);
 
+
 	// strlen
 	//printf("%lu --> %lu", strlen("abc"), ft_strlen("abc"));
 }

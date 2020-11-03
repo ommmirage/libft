@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Libft.dir/ft_memchr.c.o"
+  "CMakeFiles/Libft.dir/ft_memcmp.c.o"
   "CMakeFiles/Libft.dir/ft_memcpy.c.o"
   "CMakeFiles/Libft.dir/tests.c.o"
   "Libft"

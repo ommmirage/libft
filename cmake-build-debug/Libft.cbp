@@ -81,6 +81,9 @@
 		<Unit filename="/Users/dechanel/libft/ft_memchr.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_memcmp.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_memcpy.c">
 			<Option target="Libft"/>
 		</Unit>

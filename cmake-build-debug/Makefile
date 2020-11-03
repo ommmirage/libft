@@ -170,6 +170,33 @@ ft_memchr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.s
 .PHONY : ft_memchr.c.s
 
+ft_memcmp.o: ft_memcmp.c.o
+
+.PHONY : ft_memcmp.o
+
+# target to build an object file
+ft_memcmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcmp.c.o
+.PHONY : ft_memcmp.c.o
+
+ft_memcmp.i: ft_memcmp.c.i
+
+.PHONY : ft_memcmp.i
+
+# target to preprocess a source file
+ft_memcmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcmp.c.i
+.PHONY : ft_memcmp.c.i
+
+ft_memcmp.s: ft_memcmp.c.s
+
+.PHONY : ft_memcmp.s
+
+# target to generate assembly for a file
+ft_memcmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcmp.c.s
+.PHONY : ft_memcmp.c.s
+
 ft_memcpy.o: ft_memcpy.c.o
 
 .PHONY : ft_memcpy.o
@@ -236,6 +263,9 @@ help:
 	@echo "... ft_memchr.o"
 	@echo "... ft_memchr.i"
 	@echo "... ft_memchr.s"
+	@echo "... ft_memcmp.o"
+	@echo "... ft_memcmp.i"
+	@echo "... ft_memcmp.s"
 	@echo "... ft_memcpy.o"
 	@echo "... ft_memcpy.i"
 	@echo "... ft_memcpy.s"
