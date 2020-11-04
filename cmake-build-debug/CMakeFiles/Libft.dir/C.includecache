@@ -6,27 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/dechanel/libft/ft_memccpy.c
-libft.h
-/Users/dechanel/libft/libft.h
-
-/Users/dechanel/libft/ft_memset.c
+/Users/dechanel/libft/ft_strlcat.c
 libft.h
 /Users/dechanel/libft/libft.h
 
 /Users/dechanel/libft/libft.h
 stdio.h
 -
-
-/Users/dechanel/libft/tests.c
-libft.h
-/Users/dechanel/libft/libft.h
-string.h
--
-ft_memset.c
-/Users/dechanel/libft/ft_memset.c
-stdlib.h
--
-ft_memccpy.c
-/Users/dechanel/libft/ft_memccpy.c
 

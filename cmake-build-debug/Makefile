@@ -224,6 +224,33 @@ ft_memcpy.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcpy.c.s
 .PHONY : ft_memcpy.c.s
 
+ft_strlcat.o: ft_strlcat.c.o
+
+.PHONY : ft_strlcat.o
+
+# target to build an object file
+ft_strlcat.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.o
+.PHONY : ft_strlcat.c.o
+
+ft_strlcat.i: ft_strlcat.c.i
+
+.PHONY : ft_strlcat.i
+
+# target to preprocess a source file
+ft_strlcat.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.i
+.PHONY : ft_strlcat.c.i
+
+ft_strlcat.s: ft_strlcat.c.s
+
+.PHONY : ft_strlcat.s
+
+# target to generate assembly for a file
+ft_strlcat.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.s
+.PHONY : ft_strlcat.c.s
+
 tests.o: tests.c.o
 
 .PHONY : tests.o
@@ -269,6 +296,9 @@ help:
 	@echo "... ft_memcpy.o"
 	@echo "... ft_memcpy.i"
 	@echo "... ft_memcpy.s"
+	@echo "... ft_strlcat.o"
+	@echo "... ft_strlcat.i"
+	@echo "... ft_strlcat.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

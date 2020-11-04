@@ -4,11 +4,15 @@
 CMakeFiles/Libft.dir/ft_memchr.c.o: ../ft_memchr.c
 CMakeFiles/Libft.dir/ft_memchr.c.o: ../libft.h
 
+CMakeFiles/Libft.dir/ft_memcmp.c.o: ../ft_memcmp.c
+CMakeFiles/Libft.dir/ft_memcmp.c.o: ../libft.h
+
 CMakeFiles/Libft.dir/ft_memcpy.c.o: ../ft_memcpy.c
 CMakeFiles/Libft.dir/ft_memcpy.c.o: ../libft.h
 
-CMakeFiles/Libft.dir/tests.c.o: ../ft_memccpy.c
-CMakeFiles/Libft.dir/tests.c.o: ../ft_memset.c
+CMakeFiles/Libft.dir/ft_strlcat.c.o: ../ft_strlcat.c
+CMakeFiles/Libft.dir/ft_strlcat.c.o: ../libft.h
+
 CMakeFiles/Libft.dir/tests.c.o: ../libft.h
 CMakeFiles/Libft.dir/tests.c.o: ../tests.c
 

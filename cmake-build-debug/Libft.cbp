@@ -87,6 +87,9 @@
 		<Unit filename="/Users/dechanel/libft/ft_memcpy.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_strlcat.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/tests.c">
 			<Option target="Libft"/>
 		</Unit>

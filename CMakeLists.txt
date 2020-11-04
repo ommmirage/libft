@@ -4,4 +4,4 @@ project(Libft C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Libft
-        tests.c ft_memcpy.c ft_memchr.c ft_memcmp.c)
+        tests.c ft_memcpy.c ft_memchr.c ft_memcmp.c ft_strlcat.c)

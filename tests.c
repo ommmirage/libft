@@ -1,29 +1,35 @@
 #include "libft.h"
 #include <string.h>
 
-#include "ft_memset.c"
-#include <stdlib.h>
-
-#include "ft_memccpy.c"
-//#include "ft_strlen.c"
-
-
 int	main(int argc, char *argv[])
 {
-//	// memset
-//	size_t	size = 10;
-//	char 	b1[size];
-//
-//	memset(b1, 'B', size);
-//
-//	char 	*r1 = memset(b1, 'A', size);
-//	char 	*r2 = ft_memset(b1, 'A', size);
-//
-//	printf("memset: %s\n", r1);
-//	printf("ft_memset: %s\n", r2);
+	char	*str = "the cake is a lie !\0I'm hidden lol\r\n";
+	char	buff1[0xF00] = "there is no stars in the sky";
+	char	buff2[0xF00] = "there is no stars in the sky";
+	size_t	max = strlen("the cake is a lie !\0I'm hidden lol\r\n") + 4;
 
-//	// memccpy
-//	ft_memccpy(b1, r1, 'C', size);
+//	size_t	r1 = strlcat(buff1, str, max);
+//	size_t	r2 = ft_strlcat(buff2, str, max);
+
+//	printf("%s, %zu\n", buff1, r1);
+//	printf("%s, %zu\n", buff2, r2);
+
+//	char	s1[4] = "";
+//	char	s2[4] = "";
+//	size_t	r1 = strlcat(s1, "thx to ntoniolo for this test !", 4);
+//	size_t	r2 = ft_strlcat(s2, "thx to ntoniolo for this test !", 4);
+
+//	printf("%s, %d\n", s1, r1);
+//	printf("%s, %d\n", s2, r2);
+
+	max = strlen("the cake is a lie !\0I'm hidden lol\r\n") +
+			strlen("the cake is a lie !\0I'm hidden lol\r\n");
+
+	size_t r1 = strlcat(buff1, str, max);
+	size_t r2 = ft_strlcat(buff2, str, max);
+
+	printf("%s, %zu\n", buff1, r1);
+	printf("%s, %zu\n", buff2, r2);
 
 
 	// strlen
