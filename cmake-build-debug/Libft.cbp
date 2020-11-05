@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/dechanel/libft/ft_atoi.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_isprint.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_memcmp.c">
 			<Option target="Libft"/>
 		</Unit>

@@ -143,6 +143,60 @@ Libft/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/build
 .PHONY : Libft/fast
 
+ft_atoi.o: ft_atoi.c.o
+
+.PHONY : ft_atoi.o
+
+# target to build an object file
+ft_atoi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_atoi.c.o
+.PHONY : ft_atoi.c.o
+
+ft_atoi.i: ft_atoi.c.i
+
+.PHONY : ft_atoi.i
+
+# target to preprocess a source file
+ft_atoi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_atoi.c.i
+.PHONY : ft_atoi.c.i
+
+ft_atoi.s: ft_atoi.c.s
+
+.PHONY : ft_atoi.s
+
+# target to generate assembly for a file
+ft_atoi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_atoi.c.s
+.PHONY : ft_atoi.c.s
+
+ft_isprint.o: ft_isprint.c.o
+
+.PHONY : ft_isprint.o
+
+# target to build an object file
+ft_isprint.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isprint.c.o
+.PHONY : ft_isprint.c.o
+
+ft_isprint.i: ft_isprint.c.i
+
+.PHONY : ft_isprint.i
+
+# target to preprocess a source file
+ft_isprint.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isprint.c.i
+.PHONY : ft_isprint.c.i
+
+ft_isprint.s: ft_isprint.c.s
+
+.PHONY : ft_isprint.s
+
+# target to generate assembly for a file
+ft_isprint.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isprint.c.s
+.PHONY : ft_isprint.c.s
+
 ft_memcmp.o: ft_memcmp.c.o
 
 .PHONY : ft_memcmp.o
@@ -287,6 +341,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Libft"
+	@echo "... ft_atoi.o"
+	@echo "... ft_atoi.i"
+	@echo "... ft_atoi.s"
+	@echo "... ft_isprint.o"
+	@echo "... ft_isprint.i"
+	@echo "... ft_isprint.s"
 	@echo "... ft_memcmp.o"
 	@echo "... ft_memcmp.i"
 	@echo "... ft_memcmp.s"
