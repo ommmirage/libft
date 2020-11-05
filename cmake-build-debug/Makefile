@@ -143,33 +143,6 @@ Libft/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/build
 .PHONY : Libft/fast
 
-ft_memchr.o: ft_memchr.c.o
-
-.PHONY : ft_memchr.o
-
-# target to build an object file
-ft_memchr.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.o
-.PHONY : ft_memchr.c.o
-
-ft_memchr.i: ft_memchr.c.i
-
-.PHONY : ft_memchr.i
-
-# target to preprocess a source file
-ft_memchr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.i
-.PHONY : ft_memchr.c.i
-
-ft_memchr.s: ft_memchr.c.s
-
-.PHONY : ft_memchr.s
-
-# target to generate assembly for a file
-ft_memchr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memchr.c.s
-.PHONY : ft_memchr.c.s
-
 ft_memcmp.o: ft_memcmp.c.o
 
 .PHONY : ft_memcmp.o
@@ -197,59 +170,86 @@ ft_memcmp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcmp.c.s
 .PHONY : ft_memcmp.c.s
 
-ft_memcpy.o: ft_memcpy.c.o
+ft_strlen.o: ft_strlen.c.o
 
-.PHONY : ft_memcpy.o
-
-# target to build an object file
-ft_memcpy.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcpy.c.o
-.PHONY : ft_memcpy.c.o
-
-ft_memcpy.i: ft_memcpy.c.i
-
-.PHONY : ft_memcpy.i
-
-# target to preprocess a source file
-ft_memcpy.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcpy.c.i
-.PHONY : ft_memcpy.c.i
-
-ft_memcpy.s: ft_memcpy.c.s
-
-.PHONY : ft_memcpy.s
-
-# target to generate assembly for a file
-ft_memcpy.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcpy.c.s
-.PHONY : ft_memcpy.c.s
-
-ft_strlcat.o: ft_strlcat.c.o
-
-.PHONY : ft_strlcat.o
+.PHONY : ft_strlen.o
 
 # target to build an object file
-ft_strlcat.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.o
-.PHONY : ft_strlcat.c.o
+ft_strlen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlen.c.o
+.PHONY : ft_strlen.c.o
 
-ft_strlcat.i: ft_strlcat.c.i
+ft_strlen.i: ft_strlen.c.i
 
-.PHONY : ft_strlcat.i
+.PHONY : ft_strlen.i
 
 # target to preprocess a source file
-ft_strlcat.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.i
-.PHONY : ft_strlcat.c.i
+ft_strlen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlen.c.i
+.PHONY : ft_strlen.c.i
 
-ft_strlcat.s: ft_strlcat.c.s
+ft_strlen.s: ft_strlen.c.s
 
-.PHONY : ft_strlcat.s
+.PHONY : ft_strlen.s
 
 # target to generate assembly for a file
-ft_strlcat.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlcat.c.s
-.PHONY : ft_strlcat.c.s
+ft_strlen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strlen.c.s
+.PHONY : ft_strlen.c.s
+
+ft_strncmp.o: ft_strncmp.c.o
+
+.PHONY : ft_strncmp.o
+
+# target to build an object file
+ft_strncmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strncmp.c.o
+.PHONY : ft_strncmp.c.o
+
+ft_strncmp.i: ft_strncmp.c.i
+
+.PHONY : ft_strncmp.i
+
+# target to preprocess a source file
+ft_strncmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strncmp.c.i
+.PHONY : ft_strncmp.c.i
+
+ft_strncmp.s: ft_strncmp.c.s
+
+.PHONY : ft_strncmp.s
+
+# target to generate assembly for a file
+ft_strncmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strncmp.c.s
+.PHONY : ft_strncmp.c.s
+
+ft_strnstr.o: ft_strnstr.c.o
+
+.PHONY : ft_strnstr.o
+
+# target to build an object file
+ft_strnstr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strnstr.c.o
+.PHONY : ft_strnstr.c.o
+
+ft_strnstr.i: ft_strnstr.c.i
+
+.PHONY : ft_strnstr.i
+
+# target to preprocess a source file
+ft_strnstr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strnstr.c.i
+.PHONY : ft_strnstr.c.i
+
+ft_strnstr.s: ft_strnstr.c.s
+
+.PHONY : ft_strnstr.s
+
+# target to generate assembly for a file
+ft_strnstr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strnstr.c.s
+.PHONY : ft_strnstr.c.s
 
 tests.o: tests.c.o
 
@@ -287,18 +287,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Libft"
-	@echo "... ft_memchr.o"
-	@echo "... ft_memchr.i"
-	@echo "... ft_memchr.s"
 	@echo "... ft_memcmp.o"
 	@echo "... ft_memcmp.i"
 	@echo "... ft_memcmp.s"
-	@echo "... ft_memcpy.o"
-	@echo "... ft_memcpy.i"
-	@echo "... ft_memcpy.s"
-	@echo "... ft_strlcat.o"
-	@echo "... ft_strlcat.i"
-	@echo "... ft_strlcat.s"
+	@echo "... ft_strlen.o"
+	@echo "... ft_strlen.i"
+	@echo "... ft_strlen.s"
+	@echo "... ft_strncmp.o"
+	@echo "... ft_strncmp.i"
+	@echo "... ft_strncmp.s"
+	@echo "... ft_strnstr.o"
+	@echo "... ft_strnstr.i"
+	@echo "... ft_strnstr.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

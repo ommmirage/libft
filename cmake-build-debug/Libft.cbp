@@ -78,16 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dechanel/libft/ft_memchr.c">
-			<Option target="Libft"/>
-		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_memcmp.c">
 			<Option target="Libft"/>
 		</Unit>
-		<Unit filename="/Users/dechanel/libft/ft_memcpy.c">
+		<Unit filename="/Users/dechanel/libft/ft_strlen.c">
 			<Option target="Libft"/>
 		</Unit>
-		<Unit filename="/Users/dechanel/libft/ft_strlcat.c">
+		<Unit filename="/Users/dechanel/libft/ft_strncmp.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_strnstr.c">
 			<Option target="Libft"/>
 		</Unit>
 		<Unit filename="/Users/dechanel/libft/tests.c">
