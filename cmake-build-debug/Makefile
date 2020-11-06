@@ -197,6 +197,33 @@ ft_isprint.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isprint.c.s
 .PHONY : ft_isprint.c.s
 
+ft_isspace.o: ft_isspace.c.o
+
+.PHONY : ft_isspace.o
+
+# target to build an object file
+ft_isspace.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isspace.c.o
+.PHONY : ft_isspace.c.o
+
+ft_isspace.i: ft_isspace.c.i
+
+.PHONY : ft_isspace.i
+
+# target to preprocess a source file
+ft_isspace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isspace.c.i
+.PHONY : ft_isspace.c.i
+
+ft_isspace.s: ft_isspace.c.s
+
+.PHONY : ft_isspace.s
+
+# target to generate assembly for a file
+ft_isspace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_isspace.c.s
+.PHONY : ft_isspace.c.s
+
 ft_memcmp.o: ft_memcmp.c.o
 
 .PHONY : ft_memcmp.o
@@ -347,6 +374,9 @@ help:
 	@echo "... ft_isprint.o"
 	@echo "... ft_isprint.i"
 	@echo "... ft_isprint.s"
+	@echo "... ft_isspace.o"
+	@echo "... ft_isspace.i"
+	@echo "... ft_isspace.s"
 	@echo "... ft_memcmp.o"
 	@echo "... ft_memcmp.i"
 	@echo "... ft_memcmp.s"

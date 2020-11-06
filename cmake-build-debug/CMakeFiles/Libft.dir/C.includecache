@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/dechanel/libft/ft_atoi.c
-libft.h
-/Users/dechanel/libft/libft.h
-
 /Users/dechanel/libft/libft.h
 stdio.h
+-
+
+/Users/dechanel/libft/tests.c
+libft.h
+/Users/dechanel/libft/libft.h
+string.h
+-
+stdlib.h
 -
 

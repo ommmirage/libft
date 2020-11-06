@@ -4,10 +4,15 @@
 
 int	main(int argc, char *argv[])
 {
-	char	*n = "\e06050";
+	char	*n = "2147483648";
 
-	printf("atoi: %d\n", atoi(n));
-	printf("%d\n", ft_atoi(n));
+
+
+	int		i1 = atoi(n);
+	int		i2 = ft_atoi(n);
+
+	printf("atoi: %d\n", i1);
+	printf("%d\n", i2);
 
 	// strlen
 	//printf("%lu --> %lu", strlen("abc"), ft_strlen("abc"));

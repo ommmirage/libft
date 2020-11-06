@@ -6,6 +6,8 @@ CMakeFiles/Libft.dir/ft_atoi.c.o
  /Users/dechanel/libft/libft.h
 CMakeFiles/Libft.dir/ft_isprint.c.o
  /Users/dechanel/libft/ft_isprint.c
+CMakeFiles/Libft.dir/ft_isspace.c.o
+ /Users/dechanel/libft/ft_isspace.c
 CMakeFiles/Libft.dir/ft_memcmp.c.o
  /Users/dechanel/libft/ft_memcmp.c
  /Users/dechanel/libft/libft.h

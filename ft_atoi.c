@@ -12,35 +12,40 @@
 
 #include "libft.h"
 
-int		ft_atoi(const char *str)
+int	ft_atoi2(const char *str, int grade, int sign)
 {
-	int	len;
-	int	grade;
 	int res;
-	int sign;
 
-	while (*str && (!ft_isprint(*str) || *str == ' '))
-		str++;
-	len = ft_strlen(str) - 1;
-	grade = 1;
 	res = 0;
+	while (*str >= '0' && *str <= '9')
+	{
+		res += (*str++ - '0') * grade;
+		grade /= 10;
+	}
+	return (res * sign);
+}
+
+int	ft_atoi(const char *str)
+{
+	int			sign;
+	const char	*s2;
+	int			grade;
+
+	while (ft_isspace(*str))
+		str++;
 	if (*str == '-')
 	{
-		str++;
 		sign = -1;
-		len--;
+		str++;
 	}
 	else
 		sign = 1;
-	if (*str < '0' || *str > '9')
+	if (*str == 0)
 		return (0);
-	while (len--)
+	s2 = str;
+	if (*s2 >= '0' && *s2++ <= '9')
+		grade = 1;
+	while (*s2 >= '0' && *s2++ <= '9')
 		grade *= 10;
-	while (*str)
-	{
-		res += (*str - '0') * grade;
-		grade /= 10;
-		str++;
-	}
-	return (res * sign);
+	return (ft_atoi2(str, grade, sign));
 }

@@ -6,6 +6,8 @@ CMakeFiles/Libft.dir/ft_atoi.c.o: ../libft.h
 
 CMakeFiles/Libft.dir/ft_isprint.c.o: ../ft_isprint.c
 
+CMakeFiles/Libft.dir/ft_isspace.c.o: ../ft_isspace.c
+
 CMakeFiles/Libft.dir/ft_memcmp.c.o: ../ft_memcmp.c
 CMakeFiles/Libft.dir/ft_memcmp.c.o: ../libft.h
 
