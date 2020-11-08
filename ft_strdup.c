@@ -3,25 +3,30 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dechanel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dechanel <ommmirage@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 14:57:10 by dechanel          #+#    #+#             */
 /*   Updated: 2020/10/28 15:06:52 by dechanel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_LIBFT_H
-#define LIBFT_LIBFT_H
+#include "libft.h"
+#include <stdlib.h>
 
-#include <stdio.h>
+char	*ft_strdup(const char *s1)
+{
+	char	*copy;
+	char	*s2;
 
-int		ft_strncmp(const char *s1, const char *s2, size_t n);
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-size_t	ft_strlen(const char *s);
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
-int		ft_atoi(const char *str);
-int		ft_isprint(int c);
-int		ft_isspace(char c);
-size_t	ft_strlen(const char *s);
-
-#endif
+	if (!(copy = (char *)malloc((ft_strlen(s1) + 1) * sizeof(char))))
+		return (NULL);
+	s2 = copy;
+	while (*s1)
+	{
+		*copy = *s1;
+		s1++;
+		copy++;
+	}
+	*copy = 0;
+	return (s2);
+}
