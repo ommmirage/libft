@@ -25,8 +25,13 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		*res = 0;
 		return (res);
 	}
+	if (ft_strlen(s) < len)
+		len = ft_strlen(s);
 	if (!(res = (char *)malloc(sizeof(char) * (len + 1))))
 		return (NULL);
+//	res = (char *)malloc(sizeof(char) * (len + 1));
+//	if (res == NULL)
+//		return (NULL);
 	res2 = res;
 	s += start;
 	while (*s && len--)

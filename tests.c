@@ -8,10 +8,10 @@
 int	main(int argc, char *argv[])
 {
 	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
-
-	MALLOC_NULL;
+//
+//	MALLOC_NULL;
 	char	*ret = ft_strtrim(s1, TRIM_SET_PLACEHOLDER);
-	MALLOC_RESET;
+//	MALLOC_RESET;
 
 	// strlen
 	//printf("%lu --> %lu", strlen("abc"), ft_strlen("abc"));
