@@ -19,6 +19,13 @@ CMakeFiles/Libft.dir/ft_strncmp.c.o
 CMakeFiles/Libft.dir/ft_strnstr.c.o
  /Users/dechanel/libft/ft_strnstr.c
  /Users/dechanel/libft/libft.h
+CMakeFiles/Libft.dir/ft_strtrim.c.o
+ /Users/dechanel/libft/ft_strtrim.c
+ /Users/dechanel/libft/libft.h
+CMakeFiles/Libft.dir/ft_substr.c.o
+ /Users/dechanel/libft/ft_substr.c
+ /Users/dechanel/libft/libft.h
 CMakeFiles/Libft.dir/tests.c.o
+ /Users/dechanel/libft/include/libft_test.h
  /Users/dechanel/libft/libft.h
  /Users/dechanel/libft/tests.c

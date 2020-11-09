@@ -332,6 +332,60 @@ ft_strnstr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strnstr.c.s
 .PHONY : ft_strnstr.c.s
 
+ft_strtrim.o: ft_strtrim.c.o
+
+.PHONY : ft_strtrim.o
+
+# target to build an object file
+ft_strtrim.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strtrim.c.o
+.PHONY : ft_strtrim.c.o
+
+ft_strtrim.i: ft_strtrim.c.i
+
+.PHONY : ft_strtrim.i
+
+# target to preprocess a source file
+ft_strtrim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strtrim.c.i
+.PHONY : ft_strtrim.c.i
+
+ft_strtrim.s: ft_strtrim.c.s
+
+.PHONY : ft_strtrim.s
+
+# target to generate assembly for a file
+ft_strtrim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_strtrim.c.s
+.PHONY : ft_strtrim.c.s
+
+ft_substr.o: ft_substr.c.o
+
+.PHONY : ft_substr.o
+
+# target to build an object file
+ft_substr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_substr.c.o
+.PHONY : ft_substr.c.o
+
+ft_substr.i: ft_substr.c.i
+
+.PHONY : ft_substr.i
+
+# target to preprocess a source file
+ft_substr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_substr.c.i
+.PHONY : ft_substr.c.i
+
+ft_substr.s: ft_substr.c.s
+
+.PHONY : ft_substr.s
+
+# target to generate assembly for a file
+ft_substr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_substr.c.s
+.PHONY : ft_substr.c.s
+
 tests.o: tests.c.o
 
 .PHONY : tests.o
@@ -389,6 +443,12 @@ help:
 	@echo "... ft_strnstr.o"
 	@echo "... ft_strnstr.i"
 	@echo "... ft_strnstr.s"
+	@echo "... ft_strtrim.o"
+	@echo "... ft_strtrim.i"
+	@echo "... ft_strtrim.s"
+	@echo "... ft_substr.o"
+	@echo "... ft_substr.i"
+	@echo "... ft_substr.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

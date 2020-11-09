@@ -99,6 +99,12 @@
 		<Unit filename="/Users/dechanel/libft/ft_strnstr.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_strtrim.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_substr.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/tests.c">
 			<Option target="Libft"/>
 		</Unit>

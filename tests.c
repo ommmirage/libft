@@ -1,18 +1,17 @@
 #include "libft.h"
 #include <string.h>
 #include <stdlib.h>
+#include "include/libft_test.h"
+
+#define TRIM_SET_PLACEHOLDER " \n\t"
 
 int	main(int argc, char *argv[])
 {
-	char	*n = "2147483648";
+	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
 
-
-
-	int		i1 = atoi(n);
-	int		i2 = ft_atoi(n);
-
-	printf("atoi: %d\n", i1);
-	printf("%d\n", i2);
+	MALLOC_NULL;
+	char	*ret = ft_strtrim(s1, TRIM_SET_PLACEHOLDER);
+	MALLOC_RESET;
 
 	// strlen
 	//printf("%lu --> %lu", strlen("abc"), ft_strlen("abc"));

@@ -6,6 +6,38 @@
 
 #IncludeRegexTransform: 
 
+/Users/dechanel/libft/ft_strtrim.c
+libft.h
+/Users/dechanel/libft/libft.h
+
+/Users/dechanel/libft/include/libft_test.h
+string.h
+-
+signal.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+fcntl.h
+-
+stdint.h
+-
+limits.h
+-
+time.h
+-
+stdbool.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+bsd/string.h
+-
+
 /Users/dechanel/libft/libft.h
 stdio.h
 -
@@ -17,4 +49,6 @@ string.h
 -
 stdlib.h
 -
+include/libft_test.h
+/Users/dechanel/libft/include/libft_test.h
 

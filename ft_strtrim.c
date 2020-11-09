@@ -10,57 +10,56 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_trim_tail(const char *s1, const char *set)
 {
-	char	*res;
-	char	*set2;
-	char	*s2;
-	int 	trim;
-	size_t	initial;
 	size_t	i;
+	int 	stop;
+	int 	end;
 
-	set2 = (char *)set;
-	trim = 1;
-	initial = ft_strlen(s1) - ft_strlen(set);
-	s2 = (char *)s1;
-	i = 0;
-	while (i++ < initial)
-		s2++;
-	while (*s2)
-		if (*s2++ != *set2++)
-			trim = 0;
-	if (!trim)
-		return (ft_strdup(s1));
-	if (!(res = malloc((initial + 1) * sizeof(char))))
-		return (NULL);
-	while (initial--)
-		*res++ = *s1++;
-	*res = 0;
-	return (res);
+	stop = 0;
+	end = ft_strlen(s1) - 1;
+	while (!stop)
+	{
+		stop = 1;
+		i = 0;
+		while (i < ft_strlen(set) && end >= 0)
+		{
+			if (set[i++] == s1[end])
+			{
+				stop = 0;
+				end--;
+				break;
+			}
+		}
+	}
+	return (ft_substr(s1, 0, end + 1));
 }
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	char	*res;
-	char	*set2;
-	int		trim;
+	size_t	i;
+	int		stop;
+	int 	start;
+	size_t	set_len;
 
-	set2 = (char *)set;
-	trim = 1;
-	while (*set2)
-		if (*set2++ != *s1++)
-			trim = 0;
-	if (!trim)
-		return (ft_strdup(s1));
-	if (!(res = malloc((ft_strlen(s1) + 1) * sizeof(char))))
-		return (NULL);
-	while (*s1)
-		*res++ = *s1++;
-	*res = 0;
-	if (ft_strlen(res) < ft_strlen(set))
-		return (res);
-	return (ft_trim_tail(res, set));
+	stop = 0;
+	start = 0;
+	set_len = ft_strlen(set);
+	while (!stop)
+	{
+		stop = 1;
+		i = 0;
+		while (i < set_len)
+		{
+			if (set[i++] == s1[start])
+			{
+				stop = 0;
+				start++;
+				break;
+			}
+		}
+	}
+	return (ft_trim_tail(ft_substr(s1, start, ft_strlen(s1)), set));
 }

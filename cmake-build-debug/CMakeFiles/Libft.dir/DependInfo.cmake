@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dechanel/libft/ft_strlen.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strlen.c.o"
   "/Users/dechanel/libft/ft_strncmp.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strncmp.c.o"
   "/Users/dechanel/libft/ft_strnstr.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strnstr.c.o"
+  "/Users/dechanel/libft/ft_strtrim.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strtrim.c.o"
+  "/Users/dechanel/libft/ft_substr.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_substr.c.o"
   "/Users/dechanel/libft/tests.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/tests.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
