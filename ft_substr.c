@@ -18,6 +18,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char	*res;
 	char	*res2;
 
+    if (!s)
+        return (NULL);
 	if (start >= ft_strlen(s))
 	{
 		if (!(res = (char *)malloc(sizeof(char))))
@@ -29,17 +31,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		len = ft_strlen(s);
 	if (!(res = (char *)malloc(sizeof(char) * (len + 1))))
 		return (NULL);
-//	res = (char *)malloc(sizeof(char) * (len + 1));
-//	if (res == NULL)
-//		return (NULL);
 	res2 = res;
 	s += start;
 	while (*s && len--)
-	{
-		*res = *s;
-		res++;
-		s++;
-	}
+		*res++ = *s++;
 	*res = 0;
 	return (res2);
 }
