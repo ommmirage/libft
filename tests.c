@@ -19,7 +19,7 @@ int	main(int argc, char *argv[])
 
 //	MALLOC_NULL;
 //	char	*ret1 = ft_trim_tail(s3, TRIM_SET_PLACEHOLDER);
-	char	*ret = ft_strtrim(s3, TRIM_SET_PLACEHOLDER);
+	char	*ret = ft_strtrim(s1, TRIM_SET_PLACEHOLDER);
 //	MALLOC_RESET;
 
 //substr
