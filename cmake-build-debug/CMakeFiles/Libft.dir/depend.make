@@ -25,7 +25,6 @@ CMakeFiles/Libft.dir/ft_strtrim.c.o: ../libft.h
 CMakeFiles/Libft.dir/ft_substr.c.o: ../ft_substr.c
 CMakeFiles/Libft.dir/ft_substr.c.o: ../libft.h
 
-CMakeFiles/Libft.dir/tests.c.o: ../include/libft_test.h
 CMakeFiles/Libft.dir/tests.c.o: ../libft.h
 CMakeFiles/Libft.dir/tests.c.o: ../tests.c
 

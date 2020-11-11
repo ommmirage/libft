@@ -8,16 +8,24 @@
 
 int	main(int argc, char *argv[])
 {
+//	char *str = "i just want this part #############";
+//	size_t size = 10;
+//
+//	printf("%s", ft_substr(str, 5, size));
 //    strtrim
-    
+
 	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
+	char	*s3 = "Hello  Please Trim me !\n   \n \n \t\t\n  ";
 
 //	MALLOC_NULL;
-//	char	*ret = ft_strtrim(s1, TRIM_SET_PLACEHOLDER);
+//	char	*ret1 = ft_trim_tail(s3, TRIM_SET_PLACEHOLDER);
+	char	*ret = ft_strtrim(s3, TRIM_SET_PLACEHOLDER);
 //	MALLOC_RESET;
 
-    char    *s2 = ft_substr(s1, 10, 20);
-    printf("%s", s2);
+//substr
+
+//    char    *s2 = ft_substr("Hello  Please Trim me !\n   \n \n \t\t\n  ", 0, 23);
+//    printf("%s", s2);
     
 //    char    *dst;
 //    size_t  dstsize = 30;
