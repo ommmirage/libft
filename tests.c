@@ -19,7 +19,7 @@ int	main(int argc, char *argv[])
 
 //	MALLOC_NULL;
 //	char	*ret1 = ft_trim_tail(s3, TRIM_SET_PLACEHOLDER);
-	char	*ret = ft_strtrim(s1, TRIM_SET_PLACEHOLDER);
+	printf("%s", ft_strtrim(s1, TRIM_SET_PLACEHOLDER));
 //	MALLOC_RESET;
 
 //substr
@@ -32,5 +32,6 @@ int	main(int argc, char *argv[])
 //    dst = malloc(dstsize * sizeof(char));
 //    ft_strlcpy(dst, s1, dstsize);
 //    printf("%s", dst);
-    sleep(100000);
+
+//    sleep(100000);
 }

@@ -9,20 +9,10 @@
 /Users/dechanel/libft/ft_strtrim.c
 libft.h
 /Users/dechanel/libft/libft.h
-unistd.h
+stdlib.h
 -
 
 /Users/dechanel/libft/libft.h
 stdio.h
--
-
-/Users/dechanel/libft/tests.c
-libft.h
-/Users/dechanel/libft/libft.h
-string.h
--
-stdlib.h
--
-unistd.h
 -
 
