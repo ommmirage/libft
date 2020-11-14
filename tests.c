@@ -8,30 +8,17 @@
 
 int	main(int argc, char *argv[])
 {
-//	char *str = "i just want this part #############";
-//	size_t size = 10;
-//
-//	printf("%s", ft_substr(str, 5, size));
-//    strtrim
-
 	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
-	char	*s3 = "Hello  Please Trim me !\n   \n \n \t\t\n  ";
+	char	*s2 = "    Hello  Please Trim me ! ";
+	int i = 0;
+	char **arr = ft_split(s1, ' ');
+	while (arr[i])
+    {
+	    printf("%s\n", arr[i]);
+	    i++;
+    }
 
-//	MALLOC_NULL;
-//	char	*ret1 = ft_trim_tail(s3, TRIM_SET_PLACEHOLDER);
-	printf("%s", ft_strtrim(s1, TRIM_SET_PLACEHOLDER));
-//	MALLOC_RESET;
 
-//substr
-
-//    char    *s2 = ft_substr("Hello  Please Trim me !\n   \n \n \t\t\n  ", 0, 23);
-//    printf("%s", s2);
-    
-//    char    *dst;
-//    size_t  dstsize = 30;
-//    dst = malloc(dstsize * sizeof(char));
-//    ft_strlcpy(dst, s1, dstsize);
-//    printf("%s", dst);
 
 //    sleep(100000);
 }
