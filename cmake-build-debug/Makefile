@@ -223,6 +223,33 @@ ft_isspace.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_isspace.c.s
 .PHONY : ft_isspace.c.s
 
+ft_itoa.obj: ft_itoa.c.obj
+
+.PHONY : ft_itoa.obj
+
+# target to build an object file
+ft_itoa.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_itoa.c.obj
+.PHONY : ft_itoa.c.obj
+
+ft_itoa.i: ft_itoa.c.i
+
+.PHONY : ft_itoa.i
+
+# target to preprocess a source file
+ft_itoa.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_itoa.c.i
+.PHONY : ft_itoa.c.i
+
+ft_itoa.s: ft_itoa.c.s
+
+.PHONY : ft_itoa.s
+
+# target to generate assembly for a file
+ft_itoa.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_itoa.c.s
+.PHONY : ft_itoa.c.s
+
 ft_memcmp.obj: ft_memcmp.c.obj
 
 .PHONY : ft_memcmp.obj
@@ -457,6 +484,9 @@ help:
 	@echo ... ft_isspace.obj
 	@echo ... ft_isspace.i
 	@echo ... ft_isspace.s
+	@echo ... ft_itoa.obj
+	@echo ... ft_itoa.i
+	@echo ... ft_itoa.s
 	@echo ... ft_memcmp.obj
 	@echo ... ft_memcmp.i
 	@echo ... ft_memcmp.s

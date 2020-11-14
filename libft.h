@@ -15,12 +15,13 @@
 
 #include <stdio.h>
 
-size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
+int		ft_atoi(const char *str);
+char    *ft_itoa(int n);
+size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 size_t	ft_strlen(const char *s);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
-int		ft_atoi(const char *str);
 int		ft_isprint(int c);
 int		ft_isspace(char c);
 char	**ft_split(char const *s, char c);

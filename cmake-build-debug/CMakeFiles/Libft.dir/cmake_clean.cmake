@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Libft.dir/ft_atoi.c.obj"
   "CMakeFiles/Libft.dir/ft_isprint.c.obj"
   "CMakeFiles/Libft.dir/ft_isspace.c.obj"
+  "CMakeFiles/Libft.dir/ft_itoa.c.obj"
   "CMakeFiles/Libft.dir/ft_memcmp.c.obj"
   "CMakeFiles/Libft.dir/ft_split.c.obj"
   "CMakeFiles/Libft.dir/ft_strlen.c.obj"

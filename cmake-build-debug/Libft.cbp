@@ -83,6 +83,9 @@
 		<Unit filename="C:/C/libft/libft/ft_isspace.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_itoa.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_memcmp.c">
 			<Option target="Libft"/>
 		</Unit>

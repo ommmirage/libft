@@ -8,6 +8,8 @@ CMakeFiles/Libft.dir/ft_isprint.c.obj: ../ft_isprint.c
 
 CMakeFiles/Libft.dir/ft_isspace.c.obj: ../ft_isspace.c
 
+CMakeFiles/Libft.dir/ft_itoa.c.obj: ../ft_itoa.c
+
 CMakeFiles/Libft.dir/ft_memcmp.c.obj: ../ft_memcmp.c
 CMakeFiles/Libft.dir/ft_memcmp.c.obj: ../libft.h
 
