@@ -3,31 +3,27 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dechanel <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: dechanel <ommmirage@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/28 14:57:10 by dechanel          #+#    #+#             */
 /*   Updated: 2020/10/28 15:06:52 by dechanel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_LIBFT_H
-#define LIBFT_LIBFT_H
+#include "libft.h"
+#include <stdlib.h>
 
-#include <stdio.h>
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
+{
+    int             len;
+    char            *str;
+    unsigned int    i;
 
-int		ft_atoi(const char *str);
-char    *ft_itoa(int n);
-size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
-size_t	ft_strlen(const char *s);
-int		ft_strncmp(const char *s1, const char *s2, size_t n);
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
-int		ft_isprint(int c);
-int		ft_isspace(char c);
-char	**ft_split(char const *s, char c);
-char	*ft_strdup(const char *s1);
-char	*ft_strtrim(char const *s1, char const *set);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
-char	*ft_trim_tail(char *s1, const char *set);
-
-#endif
+    len = ft_strlen(s);
+    str = malloc(sizeof(char) * (len + 1));
+    i = 0;
+    while (s[i])
+        str[i] = f(i, s[i++]);
+    str[i] = 0;
+    return (str);
+}

@@ -331,6 +331,33 @@ ft_strlen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_strlen.c.s
 .PHONY : ft_strlen.c.s
 
+ft_strmapi.obj: ft_strmapi.c.obj
+
+.PHONY : ft_strmapi.obj
+
+# target to build an object file
+ft_strmapi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_strmapi.c.obj
+.PHONY : ft_strmapi.c.obj
+
+ft_strmapi.i: ft_strmapi.c.i
+
+.PHONY : ft_strmapi.i
+
+# target to preprocess a source file
+ft_strmapi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_strmapi.c.i
+.PHONY : ft_strmapi.c.i
+
+ft_strmapi.s: ft_strmapi.c.s
+
+.PHONY : ft_strmapi.s
+
+# target to generate assembly for a file
+ft_strmapi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_strmapi.c.s
+.PHONY : ft_strmapi.c.s
+
 ft_strncmp.obj: ft_strncmp.c.obj
 
 .PHONY : ft_strncmp.obj
@@ -496,6 +523,9 @@ help:
 	@echo ... ft_strlen.obj
 	@echo ... ft_strlen.i
 	@echo ... ft_strlen.s
+	@echo ... ft_strmapi.obj
+	@echo ... ft_strmapi.i
+	@echo ... ft_strmapi.s
 	@echo ... ft_strncmp.obj
 	@echo ... ft_strncmp.i
 	@echo ... ft_strncmp.s

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/C/libft/libft/ft_memcmp.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_memcmp.c.obj"
   "C:/C/libft/libft/ft_split.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_split.c.obj"
   "C:/C/libft/libft/ft_strlen.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strlen.c.obj"
+  "C:/C/libft/libft/ft_strmapi.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strmapi.c.obj"
   "C:/C/libft/libft/ft_strncmp.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strncmp.c.obj"
   "C:/C/libft/libft/ft_strnstr.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strnstr.c.obj"
   "C:/C/libft/libft/ft_strtrim.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strtrim.c.obj"

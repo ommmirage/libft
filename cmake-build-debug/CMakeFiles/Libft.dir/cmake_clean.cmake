@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Libft.dir/ft_memcmp.c.obj"
   "CMakeFiles/Libft.dir/ft_split.c.obj"
   "CMakeFiles/Libft.dir/ft_strlen.c.obj"
+  "CMakeFiles/Libft.dir/ft_strmapi.c.obj"
   "CMakeFiles/Libft.dir/ft_strncmp.c.obj"
   "CMakeFiles/Libft.dir/ft_strnstr.c.obj"
   "CMakeFiles/Libft.dir/ft_strtrim.c.obj"

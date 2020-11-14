@@ -95,6 +95,9 @@
 		<Unit filename="C:/C/libft/libft/ft_strlen.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_strmapi.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_strncmp.c">
 			<Option target="Libft"/>
 		</Unit>
