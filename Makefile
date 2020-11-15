@@ -11,9 +11,7 @@ OBJS = $(SRCS:%.c=%.o)
 
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
-FLAGS = -c -Wall -Wextra -Werror
-FLAGS2 = -g + valgrind --leak-check=full
-CFLAGS = -fPIC -g
+FLAGS = -Wall -Wextra -Werror
 
 all: $(SRCS)
 	gcc $(FLAGS) $(SRCS)
@@ -28,3 +26,10 @@ so:
 
 clean:
 	@rm -f $(OBJS)
+
+fclean: clean
+	@rm -f $($NAME).a
+
+re: fclean all
+
+.PHONY: all bonus clean fclean re
