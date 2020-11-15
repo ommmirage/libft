@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/C/libft/libft/libft.h
+/Users/dechanel/libft/ft_split.c
+libft.h
+/Users/dechanel/libft/libft.h
+stdlib.h
+-
+
+/Users/dechanel/libft/libft.h
 stdio.h
 -
 
-C:/C/libft/libft/tests.c
+/Users/dechanel/libft/tests.c
 libft.h
-C:/C/libft/libft/libft.h
+/Users/dechanel/libft/libft.h
 string.h
 -
 stdlib.h

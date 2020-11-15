@@ -15,6 +15,13 @@
 
 #include <stdio.h>
 
+struct word
+{
+	int len;
+	int start;
+	int end;
+};
+
 int		ft_atoi(const char *str);
 char    *ft_itoa(int n);
 size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
