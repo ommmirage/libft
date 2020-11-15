@@ -10,22 +10,22 @@ int	main(int argc, char *argv[])
 {
 //     ft_split
 
-	char	*s = "      split       this for   me  !       ";
-	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
-	char	*s2 = "    Hello  Please Trim me ! ";
-	int i = 0;
-	char **arr = ft_split(s, ' ');
-	while (arr[i])
-    {
-	    printf("%s\n", arr[i]);
-	    i++;
-    }
+//	char	*s = "      split       this for   me  !       ";
+//	char	*s1 = "   \t  \n\n \t\t  \n\n\nHello \t  Please\n Trim me !\n   \n \n \t\t\n  ";
+//	char	*s2 = "    Hello  Please Trim me ! ";
+//	int i = 0;
+//	char **arr = ft_split(s, ' ');
+//	while (arr[i])
+//    {
+//	    printf("%s\n", arr[i]);
+//	    i++;
+//    }
 
     // ft_itoa
 
-//    printf("%s\n", ft_itoa(-5645));
-//    printf("%s\n", ft_itoa(2000000000));
-//    printf("%s\n", ft_itoa(-2000000000));
+    printf("%s\n", ft_itoa(-5645));
+    printf("%s\n", ft_itoa(2000000000));
+    printf("%s\n", ft_itoa(-2147483647));
 
 
 
