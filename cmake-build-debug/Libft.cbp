@@ -96,6 +96,9 @@
 		<Unit filename="/Users/dechanel/libft/ft_putchar_fd.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_putendl_fd.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_putstr_fd.c">
 			<Option target="Libft"/>
 		</Unit>
