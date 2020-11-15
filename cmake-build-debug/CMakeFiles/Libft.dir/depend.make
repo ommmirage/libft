@@ -13,6 +13,17 @@ CMakeFiles/Libft.dir/ft_itoa.c.o: ../ft_itoa.c
 CMakeFiles/Libft.dir/ft_memcmp.c.o: ../ft_memcmp.c
 CMakeFiles/Libft.dir/ft_memcmp.c.o: ../libft.h
 
+CMakeFiles/Libft.dir/ft_putchar_fd.c.o: ../ft_putchar_fd.c
+
+CMakeFiles/Libft.dir/ft_putendl_fd.c.o: ../ft_putendl_fd.c
+CMakeFiles/Libft.dir/ft_putendl_fd.c.o: ../libft.h
+
+CMakeFiles/Libft.dir/ft_putnbr_fd.c.o: ../ft_putnbr_fd.c
+CMakeFiles/Libft.dir/ft_putnbr_fd.c.o: ../libft.h
+
+CMakeFiles/Libft.dir/ft_putstr_fd.c.o: ../ft_putstr_fd.c
+CMakeFiles/Libft.dir/ft_putstr_fd.c.o: ../libft.h
+
 CMakeFiles/Libft.dir/ft_split.c.o: ../ft_split.c
 CMakeFiles/Libft.dir/ft_split.c.o: ../libft.h
 

@@ -23,11 +23,11 @@ int	main(int argc, char *argv[])
 
     // ft_itoa
 
-    printf("%s\n", ft_itoa(-5645));
-    printf("%s\n", ft_itoa(2000000000));
-    printf("%s\n", ft_itoa(-2147483647 - 1));
+//    printf("%s\n", ft_itoa(-5645));
+//    printf("%s\n", ft_itoa(2000000000));
+//    printf("%s\n", ft_itoa(-2147483647 - 1));
 
-
+	ft_putnbr_fd(2147483647, 2);
 
 //    sleep(100000);
 }

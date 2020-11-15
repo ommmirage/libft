@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/dechanel/libft/ft_itoa.c
-stdlib.h
+/Users/dechanel/libft/ft_putnbr_fd.c
+unistd.h
+-
+libft.h
+/Users/dechanel/libft/libft.h
+
+/Users/dechanel/libft/libft.h
+stdio.h
 -
 

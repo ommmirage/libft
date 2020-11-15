@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dechanel/libft/ft_memcmp.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_memcmp.c.o"
   "/Users/dechanel/libft/ft_putchar_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putchar_fd.c.o"
   "/Users/dechanel/libft/ft_putendl_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putendl_fd.c.o"
+  "/Users/dechanel/libft/ft_putnbr_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putnbr_fd.c.o"
   "/Users/dechanel/libft/ft_putstr_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putstr_fd.c.o"
   "/Users/dechanel/libft/ft_split.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_split.c.o"
   "/Users/dechanel/libft/ft_strlen.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_strlen.c.o"

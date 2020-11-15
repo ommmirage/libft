@@ -332,6 +332,33 @@ ft_putendl_fd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putendl_fd.c.s
 .PHONY : ft_putendl_fd.c.s
 
+ft_putnbr_fd.o: ft_putnbr_fd.c.o
+
+.PHONY : ft_putnbr_fd.o
+
+# target to build an object file
+ft_putnbr_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putnbr_fd.c.o
+.PHONY : ft_putnbr_fd.c.o
+
+ft_putnbr_fd.i: ft_putnbr_fd.c.i
+
+.PHONY : ft_putnbr_fd.i
+
+# target to preprocess a source file
+ft_putnbr_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putnbr_fd.c.i
+.PHONY : ft_putnbr_fd.c.i
+
+ft_putnbr_fd.s: ft_putnbr_fd.c.s
+
+.PHONY : ft_putnbr_fd.s
+
+# target to generate assembly for a file
+ft_putnbr_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putnbr_fd.c.s
+.PHONY : ft_putnbr_fd.c.s
+
 ft_putstr_fd.o: ft_putstr_fd.c.o
 
 .PHONY : ft_putstr_fd.o
@@ -605,6 +632,9 @@ help:
 	@echo "... ft_putendl_fd.o"
 	@echo "... ft_putendl_fd.i"
 	@echo "... ft_putendl_fd.s"
+	@echo "... ft_putnbr_fd.o"
+	@echo "... ft_putnbr_fd.i"
+	@echo "... ft_putnbr_fd.s"
 	@echo "... ft_putstr_fd.o"
 	@echo "... ft_putstr_fd.i"
 	@echo "... ft_putstr_fd.s"

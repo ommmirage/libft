@@ -31,6 +31,8 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_isprint(int c);
 int		ft_isspace(char c);
+int		ft_len(int n);
+void	ft_putnbr_fd(int n, int fd);
 char	**ft_split(char const *s, char c);
 char	*ft_strdup(const char *s1);
 char	*ft_strtrim(char const *s1, char const *set);
