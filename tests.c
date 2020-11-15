@@ -25,9 +25,9 @@ int	main(int argc, char *argv[])
 
     printf("%s\n", ft_itoa(-5645));
     printf("%s\n", ft_itoa(2000000000));
-    printf("%s\n", ft_itoa(-2147483647));
+    printf("%s\n", ft_itoa(-2147483647 - 1));
 
 
 
-    sleep(100000);
+//    sleep(100000);
 }
