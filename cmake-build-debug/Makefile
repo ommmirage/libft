@@ -278,6 +278,33 @@ ft_memcmp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_memcmp.c.s
 .PHONY : ft_memcmp.c.s
 
+ft_putchar_fd.o: ft_putchar_fd.c.o
+
+.PHONY : ft_putchar_fd.o
+
+# target to build an object file
+ft_putchar_fd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putchar_fd.c.o
+.PHONY : ft_putchar_fd.c.o
+
+ft_putchar_fd.i: ft_putchar_fd.c.i
+
+.PHONY : ft_putchar_fd.i
+
+# target to preprocess a source file
+ft_putchar_fd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putchar_fd.c.i
+.PHONY : ft_putchar_fd.c.i
+
+ft_putchar_fd.s: ft_putchar_fd.c.s
+
+.PHONY : ft_putchar_fd.s
+
+# target to generate assembly for a file
+ft_putchar_fd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_putchar_fd.c.s
+.PHONY : ft_putchar_fd.c.s
+
 ft_split.o: ft_split.c.o
 
 .PHONY : ft_split.o
@@ -518,6 +545,9 @@ help:
 	@echo "... ft_memcmp.o"
 	@echo "... ft_memcmp.i"
 	@echo "... ft_memcmp.s"
+	@echo "... ft_putchar_fd.o"
+	@echo "... ft_putchar_fd.i"
+	@echo "... ft_putchar_fd.s"
 	@echo "... ft_split.o"
 	@echo "... ft_split.i"
 	@echo "... ft_split.s"

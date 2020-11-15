@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Libft.dir/ft_isspace.c.o"
   "CMakeFiles/Libft.dir/ft_itoa.c.o"
   "CMakeFiles/Libft.dir/ft_memcmp.c.o"
+  "CMakeFiles/Libft.dir/ft_putchar_fd.c.o"
   "CMakeFiles/Libft.dir/ft_split.c.o"
   "CMakeFiles/Libft.dir/ft_strlen.c.o"
   "CMakeFiles/Libft.dir/ft_strmapi.c.o"

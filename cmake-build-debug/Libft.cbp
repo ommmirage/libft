@@ -93,6 +93,9 @@
 		<Unit filename="/Users/dechanel/libft/ft_memcmp.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_putchar_fd.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_split.c">
 			<Option target="Libft"/>
 		</Unit>
