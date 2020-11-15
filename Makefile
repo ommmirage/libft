@@ -9,6 +9,8 @@ ft_strmapi.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
 OBJS = $(SRCS:%.c=%.o)
 
+BONUS_OBJS = $(SRCS:%.c=%.o)
+
 FLAGS = -c -Wall -Wextra -Werror
 FLAGS2 = -g + valgrind --leak-check=full
 CFLAGS = -fPIC -g
@@ -18,7 +20,8 @@ all: $(SRCS)
 	ar rc $(NAME).a $(OBJS)
 	ranlib $(NAME).a
 
-bonus:
+bonus: libft.a $(OBJS) $(BONUS_OBJS)
+	ar rc $(NAME).a $(OBJS) $(BONUS_OBJS)
 
 so:
 	gcc -Iinclude $(CFLAGS) -o $(NAME).so $(OBJS)

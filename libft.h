@@ -22,6 +22,12 @@ struct word
 	int end;
 };
 
+typedef struct s_list
+{
+	void *content;
+	struct s_list *next;
+} t_list;
+
 int		ft_atoi(const char *str);
 char    *ft_itoa(int n);
 size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
