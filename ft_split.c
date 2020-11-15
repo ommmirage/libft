@@ -13,11 +13,11 @@
 #include "libft.h"
 #include <stdlib.h>
 
-struct word	next_word(const char *s, char c, int start)
+struct s_word	next_word(const char *s, char c, int start)
 {
-	int			i;
-	int			is_word;
-	struct word w;
+	int				i;
+	int				is_word;
+	struct s_word	w;
 
 	i = start;
 	is_word = 0;
@@ -38,7 +38,7 @@ struct word	next_word(const char *s, char c, int start)
 	return (w);
 }
 
-int			count_words(char const *s, char c)
+int				count_words(char const *s, char c)
 {
 	int words;
 	int is_word;
@@ -61,12 +61,12 @@ int			count_words(char const *s, char c)
 	return (words);
 }
 
-char		**ft_split(char const *s, char c)
+char			**ft_split(char const *s, char c)
 {
-	char		**arr;
-	int			word_num;
-	struct word	w;
-	int			words;
+	char			**arr;
+	int				word_num;
+	struct s_word	w;
+	int				words;
 
 	if (!s)
 		return (NULL);

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/dechanel/libft/ft_isprint.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_isprint.c.o"
   "/Users/dechanel/libft/ft_isspace.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_isspace.c.o"
   "/Users/dechanel/libft/ft_itoa.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_itoa.c.o"
+  "/Users/dechanel/libft/ft_lstnew.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_lstnew.c.o"
   "/Users/dechanel/libft/ft_memcmp.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_memcmp.c.o"
   "/Users/dechanel/libft/ft_putchar_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putchar_fd.c.o"
   "/Users/dechanel/libft/ft_putendl_fd.c" "/Users/dechanel/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putendl_fd.c.o"

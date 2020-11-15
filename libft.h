@@ -10,39 +10,40 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_LIBFT_H
-#define LIBFT_LIBFT_H
+#ifndef LIBFT_H
+# define LIBFT_H
 
-#include <stdio.h>
+# include <stdio.h>
 
-struct word
+struct			s_word
 {
 	int len;
 	int start;
 	int end;
 };
 
-typedef struct s_list
+typedef struct	s_list
 {
-	void *content;
-	struct s_list *next;
-} t_list;
+	void			*content;
+	struct s_list	*next;
+}				t_list;
 
-int		ft_atoi(const char *str);
-char    *ft_itoa(int n);
-size_t  ft_strlcpy(char *dst, const char *src, size_t dstsize);
-size_t	ft_strlen(const char *s);
-int		ft_strncmp(const char *s1, const char *s2, size_t n);
-char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
-int		ft_isprint(int c);
-int		ft_isspace(char c);
-int		ft_len(int n);
-void	ft_putnbr_fd(int n, int fd);
-char	**ft_split(char const *s, char c);
-char	*ft_strdup(const char *s1);
-char	*ft_strtrim(char const *s1, char const *set);
-char	*ft_substr(char const *s, unsigned int start, size_t len);
-char	*ft_trim_tail(char *s1, const char *set);
+int				ft_atoi(const char *str);
+char			*ft_itoa(int n);
+size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t			ft_strlen(const char *s);
+int				ft_strncmp(const char *s1, const char *s2, size_t n);
+char			*ft_strnstr(const char *haystack, const char *needle,
+							size_t len);
+int				ft_memcmp(const void *s1, const void *s2, size_t n);
+int				ft_isprint(int c);
+int				ft_isspace(char c);
+int				ft_len(int n);
+void			ft_putnbr_fd(int n, int fd);
+char			**ft_split(char const *s, char c);
+char			*ft_strdup(const char *s1);
+char			*ft_strtrim(char const *s1, char const *set);
+char			*ft_substr(char const *s, unsigned int start, size_t len);
+char			*ft_trim_tail(char *s1, const char *set);
 
 #endif

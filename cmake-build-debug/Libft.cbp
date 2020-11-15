@@ -90,6 +90,9 @@
 		<Unit filename="/Users/dechanel/libft/ft_itoa.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="/Users/dechanel/libft/ft_lstnew.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="/Users/dechanel/libft/ft_memcmp.c">
 			<Option target="Libft"/>
 		</Unit>

@@ -251,6 +251,33 @@ ft_itoa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_lstnew.o: ft_lstnew.c.o
+
+.PHONY : ft_lstnew.o
+
+# target to build an object file
+ft_lstnew.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_lstnew.c.o
+.PHONY : ft_lstnew.c.o
+
+ft_lstnew.i: ft_lstnew.c.i
+
+.PHONY : ft_lstnew.i
+
+# target to preprocess a source file
+ft_lstnew.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_lstnew.c.i
+.PHONY : ft_lstnew.c.i
+
+ft_lstnew.s: ft_lstnew.c.s
+
+.PHONY : ft_lstnew.s
+
+# target to generate assembly for a file
+ft_lstnew.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Libft.dir/build.make CMakeFiles/Libft.dir/ft_lstnew.c.s
+.PHONY : ft_lstnew.c.s
+
 ft_memcmp.o: ft_memcmp.c.o
 
 .PHONY : ft_memcmp.o
@@ -623,6 +650,9 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
+	@echo "... ft_lstnew.o"
+	@echo "... ft_lstnew.i"
+	@echo "... ft_lstnew.s"
 	@echo "... ft_memcmp.o"
 	@echo "... ft_memcmp.i"
 	@echo "... ft_memcmp.s"
