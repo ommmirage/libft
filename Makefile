@@ -11,7 +11,7 @@ OBJS = $(SRCS:%.c=%.o)
 
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -c -Wall -Wextra -Werror
 
 all: $(SRCS)
 	gcc $(FLAGS) $(SRCS)
