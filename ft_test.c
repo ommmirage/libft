@@ -27,7 +27,11 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(2000000000));
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
-	ft_putnbr_fd(2147483647, 2);
+	int i = 0xff;
+	int *p = &i;
+	t_list *list = ft_lstnew(&i);
+	i = 2;
+	printf("%d\n", *(int *)(list->content));
 
 //    sleep(100000);
 }
