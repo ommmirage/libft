@@ -10,6 +10,9 @@ CMakeFiles/Libft.dir/ft_isspace.c.obj
  C:/C/libft/libft/ft_isspace.c
 CMakeFiles/Libft.dir/ft_itoa.c.obj
  C:/C/libft/libft/ft_itoa.c
+CMakeFiles/Libft.dir/ft_lstadd_front.c.obj
+ C:/C/libft/libft/ft_lstadd_front.c
+ C:/C/libft/libft/libft.h
 CMakeFiles/Libft.dir/ft_lstnew.c.obj
  C:/C/libft/libft/ft_lstnew.c
  C:/C/libft/libft/libft.h

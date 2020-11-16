@@ -28,10 +28,11 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
 	int i = 0xff;
-	int *p = &i;
 	t_list *list = ft_lstnew(&i);
 	i = 2;
 	printf("%d\n", *(int *)(list->content));
-
+	t_list *new = ft_lstnew(5);
+	ft_lstadd_front(&list, new);
+	printf("%d\n", *(int *)(new->next->content));
 //    sleep(100000);
 }

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/C/libft/libft/ft_isprint.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_isprint.c.obj"
   "C:/C/libft/libft/ft_isspace.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_isspace.c.obj"
   "C:/C/libft/libft/ft_itoa.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_itoa.c.obj"
+  "C:/C/libft/libft/ft_lstadd_front.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_lstadd_front.c.obj"
   "C:/C/libft/libft/ft_lstnew.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_lstnew.c.obj"
   "C:/C/libft/libft/ft_memcmp.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_memcmp.c.obj"
   "C:/C/libft/libft/ft_putchar_fd.c" "C:/C/libft/libft/cmake-build-debug/CMakeFiles/Libft.dir/ft_putchar_fd.c.obj"

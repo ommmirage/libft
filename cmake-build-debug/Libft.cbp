@@ -86,6 +86,9 @@
 		<Unit filename="C:/C/libft/libft/ft_itoa.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstadd_front.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_lstnew.c">
 			<Option target="Libft"/>
 		</Unit>

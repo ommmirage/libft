@@ -250,6 +250,33 @@ ft_itoa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_lstadd_front.obj: ft_lstadd_front.c.obj
+
+.PHONY : ft_lstadd_front.obj
+
+# target to build an object file
+ft_lstadd_front.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_front.c.obj
+.PHONY : ft_lstadd_front.c.obj
+
+ft_lstadd_front.i: ft_lstadd_front.c.i
+
+.PHONY : ft_lstadd_front.i
+
+# target to preprocess a source file
+ft_lstadd_front.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_front.c.i
+.PHONY : ft_lstadd_front.c.i
+
+ft_lstadd_front.s: ft_lstadd_front.c.s
+
+.PHONY : ft_lstadd_front.s
+
+# target to generate assembly for a file
+ft_lstadd_front.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_front.c.s
+.PHONY : ft_lstadd_front.c.s
+
 ft_lstnew.obj: ft_lstnew.c.obj
 
 .PHONY : ft_lstnew.obj
@@ -649,6 +676,9 @@ help:
 	@echo ... ft_itoa.obj
 	@echo ... ft_itoa.i
 	@echo ... ft_itoa.s
+	@echo ... ft_lstadd_front.obj
+	@echo ... ft_lstadd_front.i
+	@echo ... ft_lstadd_front.s
 	@echo ... ft_lstnew.obj
 	@echo ... ft_lstnew.i
 	@echo ... ft_lstnew.s

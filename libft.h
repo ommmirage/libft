@@ -30,6 +30,7 @@ typedef struct	s_list
 
 int				ft_atoi(const char *str);
 char			*ft_itoa(int n);
+void			ft_lstadd_front(t_list **lst, t_list *new);
 t_list			*ft_lstnew(void *content);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t			ft_strlen(const char *s);
