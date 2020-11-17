@@ -15,16 +15,11 @@
 t_list *ft_lstlast(t_list *lst)
 {
 	t_list	*last;
-	t_list	*current;
 
 	if (!lst)
 		return (NULL);
 	last = lst;
-	current = lst;
-	while (current->next)
-	{
-		last = current;
-		current = current->next;
-	}
+	while (last->next)
+		last = last->next;
 	return (last);
 }

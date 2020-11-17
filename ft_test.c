@@ -32,19 +32,13 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(2000000000));
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
-	int i = 0xff;
-	t_list *list = ft_lstnew(2);
-	i = 1;
-//	printf("%d\n", *(int *)(list->content));
-	t_list *new = ft_lstnew(&i);
-	ft_lstadd_front(&list, new);
-//	printf("%d\n", *(int *)(new->next->content));
-//	printf("%d\n", ft_lstsize(new));
-	ft_lstadd_back(&list, ft_lstnew(7));
-	printf("%d\n", ft_lstsize(new));
-//	ft_lstdelone(list, del);
-	printf("%d\n", ft_lstsize(new));
-//	printf("%d\n", *(int *)list->content);
-	ft_lstclear(&new, del);
+	t_list *l;
+	t_list *expected;
+	t_list *actual;
+
+	l = ft_lstnew(strdup("1"));
+	l->next = ft_lstnew(strdup("2"));
+	l->next->next = ft_lstnew(strdup("3"));
+	printf("%s\n", ft_lstlast(l)->content);
 //    sleep(100000);
 }

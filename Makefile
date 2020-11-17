@@ -9,6 +9,9 @@ ft_strmapi.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
 OBJS = $(SRCS:%.c=%.o)
 
+BONUS_SRCS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c\
+ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
 FLAGS = -c -Wall -Wextra -Werror
@@ -18,7 +21,8 @@ all: $(SRCS)
 	ar rc $(NAME).a $(OBJS)
 	ranlib $(NAME).a
 
-bonus: libft.a $(OBJS) $(BONUS_OBJS)
+bonus: libft.a $(BONUS_SRCS)
+	gcc $(FLAGS) $(BONUS_SRCS)
 	ar rc $(NAME).a $(OBJS) $(BONUS_OBJS)
 
 so:
