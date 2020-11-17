@@ -2,9 +2,14 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
-//#include "include/libft_test.h"
 
 #define TRIM_SET_PLACEHOLDER " \n\t"
+
+void	del(void *content)
+{
+	content = NULL;
+	free(content);
+}
 
 int	main(int argc, char *argv[])
 {
@@ -28,11 +33,18 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
 	int i = 0xff;
-	t_list *list = ft_lstnew(&i);
-	i = 2;
-	printf("%d\n", *(int *)(list->content));
-	t_list *new = ft_lstnew(5);
+	t_list *list = ft_lstnew(2);
+	i = 1;
+//	printf("%d\n", *(int *)(list->content));
+	t_list *new = ft_lstnew(&i);
 	ft_lstadd_front(&list, new);
-	printf("%d\n", *(int *)(new->next->content));
+//	printf("%d\n", *(int *)(new->next->content));
+//	printf("%d\n", ft_lstsize(new));
+	ft_lstadd_back(&list, ft_lstnew(7));
+	printf("%d\n", ft_lstsize(new));
+//	ft_lstdelone(list, del);
+	printf("%d\n", ft_lstsize(new));
+//	printf("%d\n", *(int *)list->content);
+	ft_lstclear(&new, del);
 //    sleep(100000);
 }

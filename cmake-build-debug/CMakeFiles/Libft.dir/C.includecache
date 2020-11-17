@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/C/libft/libft/ft_test.c
+C:/C/libft/libft/ft_lstclear.c
 libft.h
 C:/C/libft/libft/libft.h
-string.h
--
 stdlib.h
--
-unistd.h
 -
 
 C:/C/libft/libft/libft.h

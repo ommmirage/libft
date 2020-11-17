@@ -86,10 +86,31 @@
 		<Unit filename="C:/C/libft/libft/ft_itoa.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstadd_back.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_lstadd_front.c">
 			<Option target="Libft"/>
 		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstclear.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstdelone.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstiter.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstlast.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstmap.c">
+			<Option target="Libft"/>
+		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_lstnew.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="C:/C/libft/libft/ft_lstsize.c">
 			<Option target="Libft"/>
 		</Unit>
 		<Unit filename="C:/C/libft/libft/ft_memcmp.c">

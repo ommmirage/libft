@@ -323,6 +323,97 @@ CMakeFiles/Libft.dir/ft_lstadd_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstadd_front.c.s"
 	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstadd_front.c -o CMakeFiles\Libft.dir\ft_lstadd_front.c.s
 
+CMakeFiles/Libft.dir/ft_lstsize.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstsize.c.obj: ../ft_lstsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Libft.dir/ft_lstsize.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstsize.c.obj   -c C:\C\libft\libft\ft_lstsize.c
+
+CMakeFiles/Libft.dir/ft_lstsize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstsize.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstsize.c > CMakeFiles\Libft.dir\ft_lstsize.c.i
+
+CMakeFiles/Libft.dir/ft_lstsize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstsize.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstsize.c -o CMakeFiles\Libft.dir\ft_lstsize.c.s
+
+CMakeFiles/Libft.dir/ft_lstlast.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstlast.c.obj: ../ft_lstlast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Libft.dir/ft_lstlast.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstlast.c.obj   -c C:\C\libft\libft\ft_lstlast.c
+
+CMakeFiles/Libft.dir/ft_lstlast.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstlast.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstlast.c > CMakeFiles\Libft.dir\ft_lstlast.c.i
+
+CMakeFiles/Libft.dir/ft_lstlast.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstlast.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstlast.c -o CMakeFiles\Libft.dir\ft_lstlast.c.s
+
+CMakeFiles/Libft.dir/ft_lstadd_back.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstadd_back.c.obj: ../ft_lstadd_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Libft.dir/ft_lstadd_back.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstadd_back.c.obj   -c C:\C\libft\libft\ft_lstadd_back.c
+
+CMakeFiles/Libft.dir/ft_lstadd_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstadd_back.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstadd_back.c > CMakeFiles\Libft.dir\ft_lstadd_back.c.i
+
+CMakeFiles/Libft.dir/ft_lstadd_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstadd_back.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstadd_back.c -o CMakeFiles\Libft.dir\ft_lstadd_back.c.s
+
+CMakeFiles/Libft.dir/ft_lstdelone.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstdelone.c.obj: ../ft_lstdelone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Libft.dir/ft_lstdelone.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstdelone.c.obj   -c C:\C\libft\libft\ft_lstdelone.c
+
+CMakeFiles/Libft.dir/ft_lstdelone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstdelone.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstdelone.c > CMakeFiles\Libft.dir\ft_lstdelone.c.i
+
+CMakeFiles/Libft.dir/ft_lstdelone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstdelone.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstdelone.c -o CMakeFiles\Libft.dir\ft_lstdelone.c.s
+
+CMakeFiles/Libft.dir/ft_lstclear.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstclear.c.obj: ../ft_lstclear.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Libft.dir/ft_lstclear.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstclear.c.obj   -c C:\C\libft\libft\ft_lstclear.c
+
+CMakeFiles/Libft.dir/ft_lstclear.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstclear.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstclear.c > CMakeFiles\Libft.dir\ft_lstclear.c.i
+
+CMakeFiles/Libft.dir/ft_lstclear.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstclear.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstclear.c -o CMakeFiles\Libft.dir\ft_lstclear.c.s
+
+CMakeFiles/Libft.dir/ft_lstiter.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstiter.c.obj: ../ft_lstiter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Libft.dir/ft_lstiter.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstiter.c.obj   -c C:\C\libft\libft\ft_lstiter.c
+
+CMakeFiles/Libft.dir/ft_lstiter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstiter.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstiter.c > CMakeFiles\Libft.dir\ft_lstiter.c.i
+
+CMakeFiles/Libft.dir/ft_lstiter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstiter.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstiter.c -o CMakeFiles\Libft.dir\ft_lstiter.c.s
+
+CMakeFiles/Libft.dir/ft_lstmap.c.obj: CMakeFiles/Libft.dir/flags.make
+CMakeFiles/Libft.dir/ft_lstmap.c.obj: ../ft_lstmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Libft.dir/ft_lstmap.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Libft.dir\ft_lstmap.c.obj   -c C:\C\libft\libft\ft_lstmap.c
+
+CMakeFiles/Libft.dir/ft_lstmap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Libft.dir/ft_lstmap.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\C\libft\libft\ft_lstmap.c > CMakeFiles\Libft.dir\ft_lstmap.c.i
+
+CMakeFiles/Libft.dir/ft_lstmap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Libft.dir/ft_lstmap.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\C\libft\libft\ft_lstmap.c -o CMakeFiles\Libft.dir\ft_lstmap.c.s
+
 # Object files for target Libft
 Libft_OBJECTS = \
 "CMakeFiles/Libft.dir/ft_test.c.obj" \
@@ -343,7 +434,14 @@ Libft_OBJECTS = \
 "CMakeFiles/Libft.dir/ft_putendl_fd.c.obj" \
 "CMakeFiles/Libft.dir/ft_putnbr_fd.c.obj" \
 "CMakeFiles/Libft.dir/ft_lstnew.c.obj" \
-"CMakeFiles/Libft.dir/ft_lstadd_front.c.obj"
+"CMakeFiles/Libft.dir/ft_lstadd_front.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstsize.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstlast.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstadd_back.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstdelone.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstclear.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstiter.c.obj" \
+"CMakeFiles/Libft.dir/ft_lstmap.c.obj"
 
 # External object files for target Libft
 Libft_EXTERNAL_OBJECTS =
@@ -367,11 +465,18 @@ Libft.exe: CMakeFiles/Libft.dir/ft_putendl_fd.c.obj
 Libft.exe: CMakeFiles/Libft.dir/ft_putnbr_fd.c.obj
 Libft.exe: CMakeFiles/Libft.dir/ft_lstnew.c.obj
 Libft.exe: CMakeFiles/Libft.dir/ft_lstadd_front.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstsize.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstlast.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstadd_back.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstdelone.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstclear.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstiter.c.obj
+Libft.exe: CMakeFiles/Libft.dir/ft_lstmap.c.obj
 Libft.exe: CMakeFiles/Libft.dir/build.make
 Libft.exe: CMakeFiles/Libft.dir/linklibs.rsp
 Libft.exe: CMakeFiles/Libft.dir/objects1.rsp
 Libft.exe: CMakeFiles/Libft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable Libft.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\C\libft\libft\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable Libft.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Libft.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

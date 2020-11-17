@@ -250,6 +250,33 @@ ft_itoa.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_lstadd_back.obj: ft_lstadd_back.c.obj
+
+.PHONY : ft_lstadd_back.obj
+
+# target to build an object file
+ft_lstadd_back.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_back.c.obj
+.PHONY : ft_lstadd_back.c.obj
+
+ft_lstadd_back.i: ft_lstadd_back.c.i
+
+.PHONY : ft_lstadd_back.i
+
+# target to preprocess a source file
+ft_lstadd_back.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_back.c.i
+.PHONY : ft_lstadd_back.c.i
+
+ft_lstadd_back.s: ft_lstadd_back.c.s
+
+.PHONY : ft_lstadd_back.s
+
+# target to generate assembly for a file
+ft_lstadd_back.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_back.c.s
+.PHONY : ft_lstadd_back.c.s
+
 ft_lstadd_front.obj: ft_lstadd_front.c.obj
 
 .PHONY : ft_lstadd_front.obj
@@ -277,6 +304,141 @@ ft_lstadd_front.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstadd_front.c.s
 .PHONY : ft_lstadd_front.c.s
 
+ft_lstclear.obj: ft_lstclear.c.obj
+
+.PHONY : ft_lstclear.obj
+
+# target to build an object file
+ft_lstclear.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstclear.c.obj
+.PHONY : ft_lstclear.c.obj
+
+ft_lstclear.i: ft_lstclear.c.i
+
+.PHONY : ft_lstclear.i
+
+# target to preprocess a source file
+ft_lstclear.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstclear.c.i
+.PHONY : ft_lstclear.c.i
+
+ft_lstclear.s: ft_lstclear.c.s
+
+.PHONY : ft_lstclear.s
+
+# target to generate assembly for a file
+ft_lstclear.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstclear.c.s
+.PHONY : ft_lstclear.c.s
+
+ft_lstdelone.obj: ft_lstdelone.c.obj
+
+.PHONY : ft_lstdelone.obj
+
+# target to build an object file
+ft_lstdelone.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstdelone.c.obj
+.PHONY : ft_lstdelone.c.obj
+
+ft_lstdelone.i: ft_lstdelone.c.i
+
+.PHONY : ft_lstdelone.i
+
+# target to preprocess a source file
+ft_lstdelone.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstdelone.c.i
+.PHONY : ft_lstdelone.c.i
+
+ft_lstdelone.s: ft_lstdelone.c.s
+
+.PHONY : ft_lstdelone.s
+
+# target to generate assembly for a file
+ft_lstdelone.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstdelone.c.s
+.PHONY : ft_lstdelone.c.s
+
+ft_lstiter.obj: ft_lstiter.c.obj
+
+.PHONY : ft_lstiter.obj
+
+# target to build an object file
+ft_lstiter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstiter.c.obj
+.PHONY : ft_lstiter.c.obj
+
+ft_lstiter.i: ft_lstiter.c.i
+
+.PHONY : ft_lstiter.i
+
+# target to preprocess a source file
+ft_lstiter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstiter.c.i
+.PHONY : ft_lstiter.c.i
+
+ft_lstiter.s: ft_lstiter.c.s
+
+.PHONY : ft_lstiter.s
+
+# target to generate assembly for a file
+ft_lstiter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstiter.c.s
+.PHONY : ft_lstiter.c.s
+
+ft_lstlast.obj: ft_lstlast.c.obj
+
+.PHONY : ft_lstlast.obj
+
+# target to build an object file
+ft_lstlast.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstlast.c.obj
+.PHONY : ft_lstlast.c.obj
+
+ft_lstlast.i: ft_lstlast.c.i
+
+.PHONY : ft_lstlast.i
+
+# target to preprocess a source file
+ft_lstlast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstlast.c.i
+.PHONY : ft_lstlast.c.i
+
+ft_lstlast.s: ft_lstlast.c.s
+
+.PHONY : ft_lstlast.s
+
+# target to generate assembly for a file
+ft_lstlast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstlast.c.s
+.PHONY : ft_lstlast.c.s
+
+ft_lstmap.obj: ft_lstmap.c.obj
+
+.PHONY : ft_lstmap.obj
+
+# target to build an object file
+ft_lstmap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstmap.c.obj
+.PHONY : ft_lstmap.c.obj
+
+ft_lstmap.i: ft_lstmap.c.i
+
+.PHONY : ft_lstmap.i
+
+# target to preprocess a source file
+ft_lstmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstmap.c.i
+.PHONY : ft_lstmap.c.i
+
+ft_lstmap.s: ft_lstmap.c.s
+
+.PHONY : ft_lstmap.s
+
+# target to generate assembly for a file
+ft_lstmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstmap.c.s
+.PHONY : ft_lstmap.c.s
+
 ft_lstnew.obj: ft_lstnew.c.obj
 
 .PHONY : ft_lstnew.obj
@@ -303,6 +465,33 @@ ft_lstnew.s: ft_lstnew.c.s
 ft_lstnew.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstnew.c.s
 .PHONY : ft_lstnew.c.s
+
+ft_lstsize.obj: ft_lstsize.c.obj
+
+.PHONY : ft_lstsize.obj
+
+# target to build an object file
+ft_lstsize.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstsize.c.obj
+.PHONY : ft_lstsize.c.obj
+
+ft_lstsize.i: ft_lstsize.c.i
+
+.PHONY : ft_lstsize.i
+
+# target to preprocess a source file
+ft_lstsize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstsize.c.i
+.PHONY : ft_lstsize.c.i
+
+ft_lstsize.s: ft_lstsize.c.s
+
+.PHONY : ft_lstsize.s
+
+# target to generate assembly for a file
+ft_lstsize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Libft.dir\build.make CMakeFiles/Libft.dir/ft_lstsize.c.s
+.PHONY : ft_lstsize.c.s
 
 ft_memcmp.obj: ft_memcmp.c.obj
 
@@ -676,12 +865,33 @@ help:
 	@echo ... ft_itoa.obj
 	@echo ... ft_itoa.i
 	@echo ... ft_itoa.s
+	@echo ... ft_lstadd_back.obj
+	@echo ... ft_lstadd_back.i
+	@echo ... ft_lstadd_back.s
 	@echo ... ft_lstadd_front.obj
 	@echo ... ft_lstadd_front.i
 	@echo ... ft_lstadd_front.s
+	@echo ... ft_lstclear.obj
+	@echo ... ft_lstclear.i
+	@echo ... ft_lstclear.s
+	@echo ... ft_lstdelone.obj
+	@echo ... ft_lstdelone.i
+	@echo ... ft_lstdelone.s
+	@echo ... ft_lstiter.obj
+	@echo ... ft_lstiter.i
+	@echo ... ft_lstiter.s
+	@echo ... ft_lstlast.obj
+	@echo ... ft_lstlast.i
+	@echo ... ft_lstlast.s
+	@echo ... ft_lstmap.obj
+	@echo ... ft_lstmap.i
+	@echo ... ft_lstmap.s
 	@echo ... ft_lstnew.obj
 	@echo ... ft_lstnew.i
 	@echo ... ft_lstnew.s
+	@echo ... ft_lstsize.obj
+	@echo ... ft_lstsize.i
+	@echo ... ft_lstsize.s
 	@echo ... ft_memcmp.obj
 	@echo ... ft_memcmp.i
 	@echo ... ft_memcmp.s

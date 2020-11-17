@@ -10,11 +10,26 @@ CMakeFiles/Libft.dir/ft_isspace.c.obj: ../ft_isspace.c
 
 CMakeFiles/Libft.dir/ft_itoa.c.obj: ../ft_itoa.c
 
+CMakeFiles/Libft.dir/ft_lstadd_back.c.obj: ../ft_lstadd_back.c
+CMakeFiles/Libft.dir/ft_lstadd_back.c.obj: ../libft.h
+
 CMakeFiles/Libft.dir/ft_lstadd_front.c.obj: ../ft_lstadd_front.c
 CMakeFiles/Libft.dir/ft_lstadd_front.c.obj: ../libft.h
 
+CMakeFiles/Libft.dir/ft_lstclear.c.obj: ../ft_lstclear.c
+CMakeFiles/Libft.dir/ft_lstclear.c.obj: ../libft.h
+
+CMakeFiles/Libft.dir/ft_lstdelone.c.obj: ../ft_lstdelone.c
+CMakeFiles/Libft.dir/ft_lstdelone.c.obj: ../libft.h
+
+CMakeFiles/Libft.dir/ft_lstlast.c.obj: ../ft_lstlast.c
+CMakeFiles/Libft.dir/ft_lstlast.c.obj: ../libft.h
+
 CMakeFiles/Libft.dir/ft_lstnew.c.obj: ../ft_lstnew.c
 CMakeFiles/Libft.dir/ft_lstnew.c.obj: ../libft.h
+
+CMakeFiles/Libft.dir/ft_lstsize.c.obj: ../ft_lstsize.c
+CMakeFiles/Libft.dir/ft_lstsize.c.obj: ../libft.h
 
 CMakeFiles/Libft.dir/ft_memcmp.c.obj: ../ft_memcmp.c
 CMakeFiles/Libft.dir/ft_memcmp.c.obj: ../libft.h
