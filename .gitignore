@@ -1,4 +1,5 @@
 *.o
+a.out
 ft_test.c
 cmake-build-debug/
 CMakeLists.txt

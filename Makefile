@@ -1,4 +1,4 @@
-NAME = libft
+NAME = libft.a
 
 SRCS = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c ft_memchr.c\
 ft_memcmp.c ft_strlen.c ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c\
@@ -16,23 +16,21 @@ BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
 FLAGS = -c -Wall -Wextra -Werror
 
-all: $(SRCS)
+all: $(NAME)
+
+$(NAME): $(SRCS)
 	gcc $(FLAGS) $(SRCS)
-	ar rc $(NAME).a $(OBJS)
-	ranlib $(NAME).a
+	ar rc $(NAME) $(OBJS)
 
 bonus: libft.a $(BONUS_SRCS)
 	gcc $(FLAGS) $(BONUS_SRCS)
-	ar rc $(NAME).a $(OBJS) $(BONUS_OBJS)
-
-so:
-	gcc -Iinclude $(CFLAGS) -o $(NAME).so $(OBJS)
+	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
-	@rm -f $(OBJS) $(BONUS_OBJS)
+	rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
-	@rm -f $($NAME).a
+	rm -f $($NAME)
 
 re: fclean all
 

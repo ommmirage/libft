@@ -79,6 +79,7 @@ char			**ft_split(char const *s, char c)
 	{
 		w = next_word(s, c, w.end);
 		arr[word_num++] = ft_substr(s, w.start, w.len);
+		// Если не выделилась память, почистить весь arr
 	}
 	arr[word_num] = 0;
 	return (arr);
