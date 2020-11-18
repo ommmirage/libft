@@ -11,6 +11,12 @@ void	del(void *content)
 	free(content);
 }
 
+void	*f(void *content)
+{
+	(void)content;
+	return "OK\n";
+}
+
 int	main(int argc, char *argv[])
 {
 //     ft_split
@@ -33,12 +39,13 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
 	t_list *l;
-	t_list *expected;
-	t_list *actual;
+	t_list	*new;
 
 	l = ft_lstnew(strdup("1"));
 	l->next = ft_lstnew(strdup("2"));
 	l->next->next = ft_lstnew(strdup("3"));
-	printf("%s\n", ft_lstlast(l)->content);
+	new = ft_lstmap(l, f, del);
+	printf("%s %s %s\n", l->content, l->next->content, l->next->next->content);
+	printf("%s%s%s", new->content, new->next->content, new->next->content);
 //    sleep(100000);
 }

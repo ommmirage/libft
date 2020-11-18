@@ -29,7 +29,7 @@ so:
 	gcc -Iinclude $(CFLAGS) -o $(NAME).so $(OBJS)
 
 clean:
-	@rm -f $(OBJS)
+	@rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
 	@rm -f $($NAME).a
