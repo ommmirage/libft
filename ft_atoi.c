@@ -33,13 +33,14 @@ int	ft_atoi(const char *str)
 
 	while (ft_isspace(*str))
 		str++;
+	sign = 1;
 	if (*str == '-')
 	{
 		sign = -1;
 		str++;
 	}
-	else
-		sign = 1;
+	else if (*str == '+')
+		str++;
 	if (*str == 0)
 		return (0);
 	s2 = str;

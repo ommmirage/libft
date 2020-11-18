@@ -38,6 +38,8 @@ int	main(int argc, char *argv[])
 //    printf("%s\n", ft_itoa(2000000000));
 //    printf("%s\n", ft_itoa(-2147483647 - 1));
 
+	printf("%d\n", ft_atoi("+-54"));
+
 	t_list *l;
 	t_list	*new;
 
