@@ -61,6 +61,13 @@ int				count_words(char const *s, char c)
 	return (words);
 }
 
+void			ft_clear_arr(char **arr, int len)
+{
+	while (len >= 0)
+		free(arr[len--]);
+	free(arr);
+}
+
 char			**ft_split(char const *s, char c)
 {
 	char			**arr;
@@ -78,8 +85,11 @@ char			**ft_split(char const *s, char c)
 	while (word_num < words)
 	{
 		w = next_word(s, c, w.end);
-		arr[word_num++] = ft_substr(s, w.start, w.len);
-		// Если не выделилась память, почистить весь arr
+		if (!(arr[word_num++] = ft_substr(s, w.start, w.len)))
+		{
+			ft_clear_arr(arr, word_num - 1);
+			return (NULL);
+		}
 	}
 	arr[word_num] = 0;
 	return (arr);

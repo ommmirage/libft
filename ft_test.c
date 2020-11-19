@@ -32,22 +32,40 @@ int	main(int argc, char *argv[])
 //	    i++;
 //    }
 
-    // ft_itoa
+    // bonus
 
-//    printf("%s\n", ft_itoa(-5645));
-//    printf("%s\n", ft_itoa(2000000000));
-//    printf("%s\n", ft_itoa(-2147483647 - 1));
+//	printf("%d\n", ft_atoi("+-54"));
+//
+//	t_list *l;
+//	t_list	*new;
+//
+//	l = ft_lstnew(strdup("1"));
+//	l->next = ft_lstnew(strdup("2"));
+//	l->next->next = ft_lstnew(strdup("3"));
+//	new = ft_lstmap(l, f, del);
+//	printf("%s %s %s\n", l->content, l->next->content, l->next->next->content);
+//	printf("%s%s%s", new->content, new->next->content, new->next->content);
 
-	printf("%d\n", ft_atoi("+-54"));
+	t_list *l = ((void *)0);
+	t_list *n = ft_lstnew(strdup("OK"));
 
-	t_list *l;
-	t_list	*new;
+	ft_lstadd_back(&l, n);
+	if (l == n)
+	{
+		printf("SUCCESS");
+	}
+//	if (!strcmp(l->content, "OK"))
+//		printf("!strcmp(l->content, \"OK\")");
 
-	l = ft_lstnew(strdup("1"));
-	l->next = ft_lstnew(strdup("2"));
-	l->next->next = ft_lstnew(strdup("3"));
-	new = ft_lstmap(l, f, del);
-	printf("%s %s %s\n", l->content, l->next->content, l->next->next->content);
-	printf("%s%s%s", new->content, new->next->content, new->next->content);
+	//strncmp
+
+//	char *big = "abcdef";
+//	char *little = "abcdefghijklmnop";
+//	size_t size = 6;
+//
+//
+//	printf("%d\n", strncmp(little, big, size));
+//	printf("%d\n", ft_strncmp(little, big, size));
+
 //    sleep(100000);
 }
