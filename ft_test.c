@@ -62,11 +62,6 @@ int	main(int argc, char *argv[])
 
 	//strncmp
 
-	char *big = "abcdef";
-	char *little = "abcdefghijklmnop";
-	size_t size = 6;
-
-
-	printf("%d\n", strncmp(big, little, size));
-	printf("%d\n", ft_strncmp(big, little, size));
+	printf("%d\n", ft_strncmp("zyxbcdefgh", "abcdwxyz", 0));
+	printf("%d\n", strncmp("zyxbcdefgh", "abcdwxyz", 0));
 }
