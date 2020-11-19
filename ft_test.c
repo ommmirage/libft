@@ -46,26 +46,27 @@ int	main(int argc, char *argv[])
 //	printf("%s %s %s\n", l->content, l->next->content, l->next->next->content);
 //	printf("%s%s%s", new->content, new->next->content, new->next->content);
 
-	t_list *l = ((void *)0);
-	t_list *n = ft_lstnew(strdup("OK"));
+	// BS from tests
 
-	ft_lstadd_back(&l, n);
-	if (l == n)
-	{
-		printf("SUCCESS");
-	}
+//	t_list *l = ((void *)0);
+//	t_list *n = ft_lstnew(strdup("OK"));
+//
+//	ft_lstadd_back(&l, n);
+//	if (l == n)
+//	{
+//		printf("SUCCESS");
+//	}
+//
 //	if (!strcmp(l->content, "OK"))
 //		printf("!strcmp(l->content, \"OK\")");
 
 	//strncmp
 
-//	char *big = "abcdef";
-//	char *little = "abcdefghijklmnop";
-//	size_t size = 6;
-//
-//
-//	printf("%d\n", strncmp(little, big, size));
-//	printf("%d\n", ft_strncmp(little, big, size));
+	char *big = "abcdef";
+	char *little = "abcdefghijklmnop";
+	size_t size = 6;
 
-//    sleep(100000);
+
+	printf("%d\n", strncmp(big, little, size));
+	printf("%d\n", ft_strncmp(big, little, size));
 }
