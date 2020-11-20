@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-size_t	ft_strlen2(const char *s)
+static size_t	ft_strlen2(const char *s)
 {
 	size_t	len;
 
@@ -22,7 +22,7 @@ size_t	ft_strlen2(const char *s)
 	return (len);
 }
 
-size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
+size_t			ft_strlcat(char *dst, const char *src, size_t dsize)
 {
 	const char	*odst;
 	const char	*osrc;

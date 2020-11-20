@@ -13,7 +13,7 @@
 #include <unistd.h>
 #include "libft.h"
 
-int		ft_grade(int n)
+static int	ft_grade(int n)
 {
 	int	grade;
 
@@ -30,7 +30,7 @@ int		ft_grade(int n)
 	return (grade);
 }
 
-void	ft_putnbr_fd(int n, int fd)
+void		ft_putnbr_fd(int n, int fd)
 {
 	int		grade;
 	char	c;

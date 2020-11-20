@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_atoi2(const char *str, int grade, int sign)
+static int	ft_atoi2(const char *str, int grade, int sign)
 {
 	int res;
 
@@ -25,7 +25,7 @@ int	ft_atoi2(const char *str, int grade, int sign)
 	return (res * sign);
 }
 
-int	ft_atoi(const char *str)
+int			ft_atoi(const char *str)
 {
 	int			sign;
 	const char	*s2;

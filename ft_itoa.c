@@ -12,7 +12,7 @@
 
 #include <stdlib.h>
 
-int		ft_len(int n)
+static int	ft_len(int n)
 {
 	int	len;
 
@@ -31,7 +31,7 @@ int		ft_len(int n)
 	return (len);
 }
 
-char	*ft_min_int(void)
+static char	*ft_min_int(void)
 {
 	char	*str;
 
@@ -52,7 +52,7 @@ char	*ft_min_int(void)
 	return (str);
 }
 
-char	*ft_itoa(int n)
+char		*ft_itoa(int n)
 {
 	char	*str;
 	int		len;

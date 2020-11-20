@@ -13,7 +13,7 @@
 #include "libft.h"
 #include <stdlib.h>
 
-void	ft_clear_all_next(t_list *lst, void (*del)(void *))
+static void	ft_clear_all_next(t_list *lst, void (*del)(void *))
 {
 	if (lst->next)
 		ft_clear_all_next(lst->next, del);
@@ -21,7 +21,7 @@ void	ft_clear_all_next(t_list *lst, void (*del)(void *))
 	free(lst);
 }
 
-void	ft_lstclear(t_list **lst, void (*del)(void *))
+void		ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	if (!lst)
 		return ;
