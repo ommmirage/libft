@@ -14,10 +14,15 @@ ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
 
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
+FLAGS = -c -Wall -Wextra -Werror
+
 all: $(NAME)
 
 $(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
+
+%.o: %.c libft.h
+	gcc $(FLAGS) -o $@ $< -I
 
 bonus: libft.a $(BONUS_OBJS)
 	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
