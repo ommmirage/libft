@@ -42,7 +42,7 @@ clean:
 	rm -f $(OBJS) $(BONUS_OBJS)
 
 fclean: clean
-	rm -f $($NAME)
+	rm -f $(NAME)
 
 re: fclean all
 
