@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: dechanel <ommmirage@gmail.com>             +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/10/28 14:57:10 by dechanel          #+#    #+#              #
-#    Updated: 2020/10/28 14:57:10 by dechanel         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = libft.a
 
 SRCS = ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c ft_memmove.c ft_memchr.c\
@@ -26,16 +14,12 @@ ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
 
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 
-FLAGS = -c -Wall -Wextra -Werror
-
 all: $(NAME)
 
-$(NAME): $(SRCS)
-	gcc $(FLAGS) $(SRCS)
+$(NAME): $(OBJS)
 	ar rc $(NAME) $(OBJS)
 
-bonus: libft.a $(BONUS_SRCS)
-	gcc $(FLAGS) $(BONUS_SRCS)
+bonus: libft.a $(BONUS_OBJS)
 	ar rc $(NAME) $(OBJS) $(BONUS_OBJS)
 
 clean:
