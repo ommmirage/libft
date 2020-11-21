@@ -31,7 +31,7 @@ int			ft_atoi(const char *str)
 	const char	*s2;
 	int			grade;
 
-	while (ft_isspace(*str))
+	while (ft_isspace_bonus(*str))
 		str++;
 	sign = 1;
 	if (*str == '-')
